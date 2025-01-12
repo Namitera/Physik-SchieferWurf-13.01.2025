@@ -1,0 +1,169 @@
+Scenen:
+Thumbnail
+QuoteOpening
+RahmenBedingungen
+Teilgeschwindigkeiten
+sinuscosinusIntuition
+BahnkurveDreieck
+VxyFormula
+BahnkurveIntuition
+BahnkurveFormula
+BahnkurveGraph
+Eigenschaften1 
+Eigenschaften2
+PauseAndPonder
+Ending
+Zusammenfassung
+
+
+
+Script:
+Int1:
+Das Ziel ist den schiefen Wurf zu verstehen. Auf diesem Weg will ich aber nicht nur stumpf physikalische Formel verwenden, sondern auch mit 
+Intuition das Verständnis erleichtern. Fangen wir daher ganz einfach an.
+
+
+
+Rahmenbedingungen:
+Der schiefe Wurf beschreibt die Flugbahn eines Körpers. Diese Flugbahn ist parabelförmig, da die Schwerkraft das Objekt nach unten zieht. 
+Was den schiefen Wurf kennzeichnet, ist das er von einer Anfangsgeschwindigkeit v0 bestimmt ist, sowie einem Winkel θ, welcher die die 
+Richtung der Anfangsgeschwindigkeit v0 angibt. Je nach Änderung von v0 oder θ ändert sich auch die Flugbahn wie hier zu sehen ist.
+
+
+
+Int2:
+Alleine durch diese Beobachtung können wir noch nicht viel sagen. Schauen wir etwas genauer auf die Einflussfaktoren.
+
+
+
+Teilgeschwindigkeiten:
+Nehmen wir nocheinmal v0. v0 hat eine Richtung. Bisher haben wir nur Richtungen betrachtet direkt in x- oder y-Richtung. 
+v0 zeigt aber nicht immer direkt in diese Richtungen. Deshalb können wir v0 in x- und y-Komponenten aufteilen. Dabei erhalten wir die 
+Teilgeschwindigkeiten vx in x-Richtung und vy in y-Richtung. Von nun an werde ich x rot und y grün färben, damit man die x- und 
+y-Komponenten schneller wiedererkennen kann. Die Teilgeschwindigkeiten sind dabei abhängig von v0 und seinem Winkel oder auch Richtung. 
+Je nachdem in welche Richtung v0 zeigt sind vx und vy entweder groß oder klein. Doch in welchem konkreten Verhältnis stehen diese 
+Teilgeschwindigkeiten mit der Anfangsgeschwindigkeit?
+
+
+
+sinuscosinusIntuition:
+Sehen wir uns zunächst nocheinmal den Einheitskreis an. Der Sinus gibt die Länge der grünen Seite an und der Cosinus die Länge der roten 
+Seite. Dieses Verhältnis gilt, da wir ein rechtwinkliges Dreieck betrachten. Zudem ist der Sinus und Cosinus von unserem Winkel abhängig. 
+Ist der Winkel groß, ist Sinus auch groß. Ist der Winkel klein, ist Sinus glein. Für den Cosinus gilt: ist der Winkel klein, ist Cosinus 
+groß und ist der Winkel groß, ist Cosinus klein. Wir wollen hier hauptsächlich Winkel zwischen 0 und 90° betrachten.
+
+Wir nehmen an, dass unsere gelbe Seite die Länge 1 hat. Deshalb ist die Länge der roten Seite 1 Mal cosθ und die Länge die grünen Seite 1 
+Mal sinθ. Wenn ich die gelbe Seite jetzt aber v0 nenne, dann muss daraus folgen, dass die rote Seite v0 Mal cosθ ist und die grüne Seite 
+v0 Mal sinθ. Wir haben hier die 1 durch v0 ersetzt. Dieses Diagramm kommt uns bekannt vor. Es ist das Diagramm der Teilgeschwindigkeiten, 
+jedoch haben wir hier einen konkreten Ausdruck für die Teilgeschwindigkeiten gefunden. Nämlich vx=v0•cosθ für unsere x-Geschwindigkeit 
+und vy=v0•sinθ für unsere y-Geschwindigkeit. Somit haben wir einen Ausdruck für die Teilgeschwindigkeiten, welcher von v0 und θ abhängig ist.
+
+
+
+Int3:
+Welche weiteren Aussagen lassen sich über die Teilgeschwindigkeiten treffen?  Welche Eigenschaften weisen sie auf? Sind sie geradlinig 
+oder beschleunigt? Sehen wir uns dazu an, wie sich die Teilgeschwindigkeiten verhalten.
+
+
+
+BahnkurveDreieck: 
+Ein Objekt bewegt sich entlang der Flugbahn. Der gelbe Pfeil zeigt in die Richtung in der sich das Objekt bewegt. Die Länge der Pfeile 
+geben die Geschwindigkeit in deren Richtung an. Der rote Pfeil ist die Teilgeschwindigkeit in x-Richtung. Diese ändert sich nicht, man 
+sagt auch sie ist konstant. An jeder Stelle der Flugbahn bleibt die Länge von vx gleich. Somit liegt für die Teilgeschwindigkeit vx 
+eine geradlinig gleichförmige Bewegung vor.
+
+Wenn wir uns die Länge des grünen Pfeils ansehen, dann ändert sich diese. Auf die Teilgeschwindigkeit vy wirkt nämlich die Gravitation, 
+welche das Objekt nach unten zieht. Da sich die Geschwindigkeit ändert über die Zeit, haben wir hier eine Beschleunigung in y-Richtung. 
+Somit liegt für die Teilgeschwindigkeit vy eine gleichmäßig beschleunigte Bewegung vor.
+
+
+
+Int4:
+Versuchen wie nun diese Erkenntnissen festzuhalten und etwas neues daraus zumachen.
+
+
+
+VxyFormula:
+Die Formel für die gleichförmige geradlinige Bewegung lautet v=Δs/Δt. Wir wollen s in Abhängigkeit von t bekommen. Deshalb bringen wir 
+zuerst t auf die andere Seite. Das Gleichheitszeichen wird umgedreht. Da diese Bewegung in x-Richtung verläuft können wir unseren Weg s 
+auch x nennen. Daraus ergibt sich das die Geschwindigkeit zur x-Geschwindigkeit vx wird. Zudem können wir x als Funktion von t ausdrücken. 
+Die Formel für die Teilgeschwindigkeit vx lautet erneut vx=v0 Mal cosθ. Da in beiden Ausdrücken vx vorkommt, können wir vx in x(t) 
+einsetzen. Somit erhalten wir die Gleichung der horizontalen Bewegung in abhängig der Zeit. x(t)=v0 Mal cosθ Mal t.
+
+Die Formel für die gleichmäßig beschleunigte Bewegung lautet s(t)=½ Mal a Mal t². a ist die Beschleunigung welche bei uns auf der Erde g 
+ist mit 9.81 m pro s². Deshalb können wir das g in unserer Formel für das a einsetzen. Da die Beschleunigung uns nach unten zieht, fügen 
+wir ein Minus hinzu. Diese Bewegung verläuft senkrecht, also können wir den Weg s auch y nennen. Jetzt wird diese Bewegung aber noch von 
+der Anfangsgeschwindigkeit v0 beeinflusst und nicht nur von der Schwerkraft. vy Mal t beschreibt also den zusätzlichen Weg, den das 
+Objekt zurücklegt. Stellen wir diesen Term nach vorne. Über unsere Teilgeschwindigkeit vy wissen wir bereits: vy=v0 Mal sinθ. Hier kommt 
+vy in beiden Ausdrücken vor, wodurch wir für vy einsetzen können. Somit erhalten wir die Gleichung der vertikalen Bewegung in abhängig 
+der Zeit. y(t)=v0 Mal sinθ Mal t -½gt².
+
+
+
+BahnkurveIntuition:
+Als nächstes wollen wir uns der Bahnkurve nähern. Die Bahnkurve bringt dabei x(t) und y(t) zusammen. Bisher hatten wir die Koordinaten 
+nur in Abhängigkeit der Zeit betrachtet, aber jetzt wollen wir sie in Abhängigkeit voneinander betrachten, also y in Abhängigkeit von x, 
+oder auch y(x). Eine Funktion die die Flugbahn eines Körpers beschreibt mithilfe von x- und y-Koordinaten. Anfangsgeschwindigkeit v0 und 
+der Winkel θ sind dabei der Input.
+
+Um etwas Intuition zu gewinnen wie die Bahnkurve verlaufen muss und woraus sie besteht schauen wir uns unsere bisherigen Ergebnisse 
+nocheinmal an. Hier sehen wir wie sich der Graph der horizontalen Bewegung verändert, wenn man die Bedingungen ändert. Für Änderungen 
+des Winkels und der Anfangsgeschwindigkeit lassen sich auch im Graphen Änderungen erkennen.
+
+Genauso hat der Graph der vertikalen Bewegung einen Einfluss durch unsere Anfangsbedingungen. Wichtig ist hier das diese Graphen die 
+Relation mit der Zeit t darstellen. Durch die Bahnkurve wollen wir die Koordinaten x und y in Relation setzen.
+
+Dies ist der Graph y(x), unsere Bahnkurve, welche wir finden wollen. Er hat einige Ähnlichkeiten mit den anderen Graphen. Zudem ist 
+auch er sowohl von der Anfangsgeschwindigkeit, als auch dem Winkel abhängig. Dieser Graph muss also irgendwie alle Graphen und Eingaben 
+miteinander verbinden. Vielleicht können wir etwas mit den Formeln anfangen. Diese sind nämlich immerhin auch etwas ähnlich.
+
+
+
+BahnkurveFormula:
+Hier sind nocheinmal die Formeln für die horizontale Bewegung und für die vertikale Bewegung. Jetzt wollen wir daraus die Bahnkurve 
+herleiten. Schauen wir uns zuerst die horizontale Bewegung an. Die Idee ist durch Auflösung nach t die Formeln ineinander einzusetzen 
+und so zu vereinen. Machen wir zunächst aus x(t) wieder t. Um nach t auszulösen teilen wir durch v0 Mal cosθ. Jetzt kommt in beiden 
+Formel t vor und wir können t in y(t) einsetzen.
+
+Fangen wir mit dem linken t an. Diese beiden Ausdrücke lassen sich zusammenfassen. Wir sehen, dass v0 im Zähler und im Nenner vorkommt, 
+also lässt es sich kürzen. Per Definition ist Sinus geteilt durch Cosinus gleich Tangens. Somit erhalten wir tanθ Mal x. Auch für das 
+zweite t können wir unsere Formel einsetzen. Wichtig ist auf das Quadrat zu achten. Nach der Potenzregel teilt sich das Quadrat auf 
+Zähler und Nenner auf. Das Quadrat im Nenner lässt sich ausmultiplizieren. Diese beiden Brüche können wir ähnlich wie eben zusammen 
+bringen und etwas rangieren. Somit erhalten wir die Bahnkurve. y in Abhängigkeit von x. y(x)= tanθ Mal x -gx² geteilt durch 2v0² cos²θ.
+
+
+
+BahnkurveGraph:
+Und das ist der schiefe Wurf. Die Flugbahn die ein Körper während eines Wurfs beschreibt. Hier sehen wir das Zusammenspiel von Formel, 
+Winkel und Anfangsgeschwindigkeit. Wenn wir uns jetzt nocheinmal die Scene vom Anfang ansehen, dann können wir genau sagen warum und 
+wie die einzelnen Teile des schiefen Wurfs die Flugbahn bilden.
+
+
+
+Eigenschaften1:
+Ich möchte noch auf zwei Eigenschaften des schiefen Wurfs eingehen. Angenommen wir haben einen Punkt R, welcher den Aufprall eines 
+Objektes darstellt. Dieser Punkt kann durch zwei verschiedene Flugbahnen mit gleicher Anfangsgeschwindigkeit, aber unterschiedlichen 
+Winkeln erreicht werden. Dabei wird zwischen der oberen und unteren Winkelgruppe unterschieden. Die obere Winkelgruppe braucht dabei 
+länger, um an ihr Ziel anzukommen.
+
+
+
+Eigenschaften2:
+Wie auch der waagerechte Wurf, welcher übrigens ein Spezialfall des schiefen Wurfs ist, kann man die Wurfparabel nach oben verschieben 
+durch h0. In der Formel addieren wir einfach h0. Diese Verschiebung hat zum Beispiel Auswirkungen auf die Flugdauer und auf die Weite 
+des Wurfes. Der Rest der Formel bleibt dabei unverändert.
+
+
+
+PauseAndPonder:
+Als letztes schauen wir uns die Reichweite an. Das ist die Strecke die das Objekt in x-Richtung zurücklegt, bevor es seine Ausgangshöhe 
+wider erreicht hat. Auch hierfür lässt sich eine Formel aufstellen. Der Ansatz wäre y(x) gleich 0 zusetzen. Diesmal werde ich euch aber 
+nicht die Lösung verraten. Ich werde es jetzt euch überlassen zu reflektieren und nachzudenken, um zu verstehen wie die Reichweite 
+definiert wird.
+
+
+
+Int5:
+Wie Galileo sagte, sobald die Wahrheit einmal entdeckt ist ist sie einfach zu verstehen. Der schiefe Wurf schien zunächst komplex, 
+doch durch die schrittweise Annäherung fühlt es sich nicht wie eine vom Himmel gefallene Erkenntnis an, sondern wie eine Wiederentdeckung, 
+und das ist der Punkt.
